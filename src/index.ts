@@ -15,7 +15,7 @@ class Client {
   artifacts: object;
 
   constructor({ baseURL, token }: ClientOptions) {
-    const scope = ""; //"/ap/v1";
+    const scope = "/ap/v1";
 
     this.client = axios.create({
       baseURL: `${baseURL}${scope}`,
