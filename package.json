@@ -1,0 +1,18 @@
+{
+  "name": "agent-protocol-client-js",
+  "version": "1.0.0",
+  "description": "Client for interacting with Agent API",
+  "main": "dist/index.js",
+  "author": "Alex Chaplinsky",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "agent-protocol": "^0.1.2",
+    "prettier": "^3.0.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
